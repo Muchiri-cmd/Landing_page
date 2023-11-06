@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Landing Page</title>
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css">
+    <!--add font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!--add google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!--favicon-->
+    <link rel="shortcut icon" href="" type="image/svg+xml">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="" class="logo">
+                <!--cant find logo-->
+                <h1 class="logo-text">RainMaker<i class="fas fa-dollar-sign"></i></h1>
+            </a>
+
+            <nav class="navbar" data-navbar>
+                <ul class="nav-list">
+                    <li >
+                        <a href="#why-us" class="nav-link">Why Choose Us</a>
+                    </li>
+                    <li >
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li >
+                        <a href="#sign-up" class="nav-link">Sign-up</a>
+                    </li>
+                   
+                </ul>
+            </nav>
+            <button class="nav-open-btn" aria-label="toggle menu" data-nav-toggle-btn>
+                <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon"></ion-icon>
+                <ion-icon name="close-outline" aria-hidden="true" class="close-icon"></ion-icon>
+            </button>
+            <div class="overlay" data-overlay></div>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <section class="section hero" aria-label="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="h1 title hero-title">Elevate your brand</h1>
+                        <p class="hero-text">
+                            
+                            Unlock the limitless potential of your brand with our one-stop digital powerhouse.
+                            We craft captivating stories, turbocharge your online visibility, and convert clicks into loyal customers. We are the pioneers of the digital era, and your triumph is our masterpiece
+
+                        </p>
+                        <div class="input-wrapper">
+                            <button type="submit" class="btn btn-primary">Contact Us</button>
+                        </div>
+                    </div>
+                    <figure class="hero-banner">
+                        <img src="./assets/hero-img.jpg" alt="" class="w-100" width="835" height="960" alt="hero-img" data-parallax data-parallax-speed="25">
+
+                    </figure>
+                </div>
+            </section>
+            
+            <section id="why-us" class="section why-us text-center" aria-labelledby="why-us-label">
+                <div class="container">
+                    <h2 class="h2 section-title" id="why-us-label">Why choose Us</h2>
+                    <p class="section-text">
+                        Choose us for unparalleled digital marketing expertise that turns clicks into customers and brand recognition into success
+                    </p>
+                    <div class="wrapper">
+                        <figure class="why-us-banner">
+                            <img src="./assets/why-us.jpg" alt="why-us-banner" class="w-100" width="734" height="854" loading="lazy" >
+                        </figure>
+                        <ul class="grid-list">
+                            <li class="why-us-item">
+                                <i class="fas fa-palette"></i>
+                                <h3 class="title item-title">Unmatched Creative Prowess</h3>
+                                <p class="item-text">
+                                    Our teams are fueled by creativity and innovation, delivering visually stunning websites and persuasive content that captivate audiences,customers and clients
+                                </p>
+                            </li>
+
+                            <li class="why-us-item">
+                                <i class="fas fa-chess"></i> 
+                                <h3 class="title item-title">Strategic Excellence</h3>
+                                <p class="item-text">
+                                    We don't just create; we strategize to make you stand out. Tailored solutions aligned with your brand's identity and goals ensure your digital success.
+                                </p>
+                            </li>
+
+                            <li class="why-us-item">
+                                <i class="fa fa-line-chart"></i>
+
+                                <h3 class="title item-title">Results-Driven Marketing</h3>
+                                <p class="item-text">
+                                    we're all about delivering tangible results. Our digital marketing strategies are meticulously crafted to ensure every investment translates into measurable returns, putting more money in your pocket.
+                                </p>
+                            </li>
+                            <li class="why-us-item">
+                                <i class="fas fa-handshake"></i>
+                                <h3 class="title item-title">Devoted Patnerships</h3>
+                                <p class="item-text">
+                                    We're more than a one-time service. We build lasting partnerships, always by your side, ready to conquer challenges and seize opportunities
+                                </p>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="services"class=" services text-center" aria-labelledby="services-label">
+                <div class="container">
+                    <h2 class="title section-title"></h2>
+                    <p class="section-text">
+                       Some of our services include:
+                    </p>
+                    <ul class="grid-list">
+                        <li>
+                            <div class="service-card">
+                                <figure class="card-banner img-holder" style="--width:580 ; --height:620 ;">
+                                    <img src="./assets/web-development.jpg" width="580" height="620" alt="software-development" loading="lazy" class="img-cover">
+                                </figure>
+                                <h3 class="title">
+                                    <a href="#" class="card-title">Software Development</a>
+                                </h3>
+                                
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+                                <figure class="card-banner img-holder" style="--width:580 ; --height:620 ;">
+                                    <img src="./assets/copy.jpg" width="580" height="620" alt="Copywriting" loading="lazy" class="img-cover">
+                                </figure>
+                                <h3 class="title">
+                                    <a href="#" class="card-title">Copywriting</a>
+                                </h3>
+                                
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+                                <figure class="card-banner img-holder" style="--width:580 ; --height:620 ;">
+                                    <img src="./assets/graphic-design.jpg" width="580" height="620" alt="Graphic-design" loading="lazy" class="img-cover">
+                                </figure>
+                                <h3 class="title">
+                                    <a href="#" class="card-title">Graphic Design</a>
+                                </h3>
+                                
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-card">
+                                <figure class="card-banner img-holder" style="--width:580 ; --height:620 ;">
+                                    <img src="./assets/SEO.jpg" width="580" height="620" alt="SEO" loading="lazy" class="img-cover">
+                                </figure>
+                                <h3 class="title">
+                                    <a href="#" class="card-title">SEO</a>
+                                </h3>
+                                
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-card">
+                                <figure class="card-banner img-holder" style="--width:580 ; --height:620 ;">
+                                    <img src="./assets/digitalmarketing.jpg" width="580" height="620" alt="Digital-Marketing" loading="lazy" class="img-cover">
+                                </figure>
+                                <h3 class="title">
+                                    <a href="#" class="card-title">Digital Marketing</a>
+                                </h3>
+                                
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-card">
+                                <figure class="card-banner img-holder" style="--width:580 ; --height:620 ;">
+                                    <img src="./assets/socials.jpg" width="580" height="620" alt="Virtual-Reality" loading="lazy" class="img-cover">
+                                </figure>
+                                <h3 class="title">
+                                    <a href="#" class="card-title">Social Media Management</a>
+                                </h3>
+                                
+                            </div>
+                        </li>
+
+                    </ul>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </section>
+            <section id="sign-up"class="section hero" aria-label="hero">
+                <div class="container">
+                    <figure class="hero-banner">
+                        <img src="./assets/cta-img.jpg" alt="" class="w-100" width="835" height="960" alt="hero-img" data-parallax data-parallax-speed="10">
+                    </figure>
+                    <div class="hero-content">
+                        <h1 class="h1 title hero-title">Sign up for our newsletters and advance your business</h1>
+                        <p class="hero-text">
+                            
+                        </p>
+                        <div class="input-wrapper">
+                            <input type="email" name="email" class="input-field" placeholder="example@gmail.com">
+                            <button type="submit" class="btn btn-primary">Sign-up</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="section footer-top">
+            <div class="container">
+                <div class="footer-brand">
+                    <a href="" class="logo">
+                        <h1 class="logo-text" >RainMaker<i class="fas fa-dollar-sign"></i></h1>
+                        <address class="footer-text">
+                            Nairobi,Kenya
+                        </address>
+                        <ul class="social-list">
+                            <li>
+                                <a href="" class="social-link">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="social-link">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="social-link">
+                                    <ion-icon name="logo-youtube"></ion-icon>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                        <a href="" class="btn btn-primary">Contact Us</a>
+                    </a>
+                </div>
+                <ul class="footer-list">
+                    <li>
+                        <a href="" class="footer-link">Work With Us</a>
+                    </li>
+
+                    <li>
+                        <a href="" class="footer-link">Advertise With Us</a>
+                    </li>
+                    <li>
+                        <a href="" class="footer-link">Support Us</a>
+                    </li>
+                    
+                    <li>
+                        <a href="" class="footer-link">Private Coaching</a>
+                    </li>
+                    <li>
+                        <a href="" class="footer-link">Our Work</a>
+                    </li>
+                    <li>
+                        <a href="" class="footer-link">Our Team</a>
+                    </li>
+                    <li>
+                        <a href="" class="footer-link">About Us</a>
+                    </li>
+                    <li>
+                        <a href="" class="footer-link">FAQs</a>
+                    </li>
+                    <li>
+                        <a href="" class="footer-link">Report a Bug</a>
+                    </li>
+
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <div class="container">
+                <p class="copyright">
+                    &copy; 2023 RainMakers.Proudly By
+                    <a href="" class="link">Muchiri</a>
+                </p>
+                <ul class="footer-bottom-list">
+                    <li class="footer-link">
+                        <a href="" class="footer-link">Terms of use</a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="" class="footer-link">Privacy Policy</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    <!-- javascript file-->
+    <script src="./index.js"></script>
+
+    <!--add javascript ion icon modules-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
