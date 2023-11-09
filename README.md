@@ -1,2 +1,2 @@
 # Landing_page
-Landing page project
+Landing page project live at https://muchiri-cmd.github.io/Landing_page/ 
